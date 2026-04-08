@@ -1,0 +1,12 @@
+# configuration.yaml for HAOS
+# change LOCAL_IP to your own localhost, restart HAOS so configuration.yaml is updated
+#
+# For Automations, you can use 'Perform action' for either mute or unmute
+rest_command:
+  discord_mute:
+    url: "http://192.168.1.242:3000/webhook?state=open"
+    method: POST
+  discord_unmute:
+    url: "http://192.168.1.242:3000/webhook?state=closed"
+    method: POST
+

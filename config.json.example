@@ -3,5 +3,8 @@
   "TARGET_USER_ID": "discord-user-id-here",
   "GUILD_ID": "discord-server-id-here",
   "NOTIFICATION_CHANNEL_ID": "discord-channel-id-here",
-  "PORT": 3000
+  "PORT": 3000,
+  "HA_URL": "http://url:8123",
+  "HA_TOKEN": "long-lived-access-token",
+  "HA_AGENT_ID": "conversation.homeassistant" 
 }
